@@ -9,7 +9,7 @@ class Tests: XCTestCase {
 
   func testExample() {
 
-    let flask = Flask(userDefaults: NSUserDefaults.standardUserDefaults())
+    let flask = Flask(userDefaults: NSUserDefaults.standardUserDefaults(), secret: "")
 
     flask.set("hello", key: Key.key)
     XCTAssertEqual(flask.get(Key.key), "hello")
