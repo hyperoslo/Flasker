@@ -1,0 +1,16 @@
+PODS:
+  - Flasker (0.1.0)
+
+DEPENDENCIES:
+  - Flasker (from `../../`)
+
+EXTERNAL SOURCES:
+  Flasker:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  Flasker: e9d6dd0e9acf92e9ce41b08ffbd756f7acdb056e
+
+PODFILE CHECKSUM: 1bd96a45757c2dca8e1770129080dea86cfd6cc8
+
+COCOAPODS: 1.0.1
