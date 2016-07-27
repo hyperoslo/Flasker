@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D200AB4D1D4968B3004C40FC /* Arcane.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D200AB4C1D4968B3004C40FC /* Arcane.framework */; };
 		D2A4E2611D48C546002016C5 /* Flask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E2601D48C546002016C5 /* Flask.swift */; };
 		D2A4E2621D48C546002016C5 /* Flask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E2601D48C546002016C5 /* Flask.swift */; };
 		D2A4E2641D48C627002016C5 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E2631D48C627002016C5 /* Key.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D200AB4C1D4968B3004C40FC /* Arcane.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Arcane.framework; path = Carthage/Build/iOS/Arcane.framework; sourceTree = "<group>"; };
 		D2A4E2601D48C546002016C5 /* Flask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flask.swift; sourceTree = "<group>"; };
 		D2A4E2631D48C627002016C5 /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 		D2A4E2661D48CA2E002016C5 /* Crypter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypter.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D200AB4D1D4968B3004C40FC /* Arcane.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +100,7 @@
 		D2A4E25F1D48C535002016C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D200AB4C1D4968B3004C40FC /* Arcane.framework */,
 				D5C629791C3A879F007F7B7C /* Quick.framework */,
 				D5C6297A1C3A879F007F7B7C /* Nimble.framework */,
 				D5C629751C3A878E007F7B7C /* Quick.framework */,
@@ -478,6 +482,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Flasker/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -497,6 +505,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Flasker/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -516,7 +528,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/FlaskerTests/Info-iOS.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.FlaskerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -532,7 +544,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/FlaskerTests/Info-iOS.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.FlaskerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -594,7 +606,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/FlaskerTests/Info-Mac.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.Flasker-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -614,7 +626,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/FlaskerTests/Info-Mac.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.Flasker-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
