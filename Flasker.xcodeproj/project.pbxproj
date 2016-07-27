@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		D2A4E2611D48C546002016C5 /* Flask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E2601D48C546002016C5 /* Flask.swift */; };
 		D2A4E2621D48C546002016C5 /* Flask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E2601D48C546002016C5 /* Flask.swift */; };
+		D2A4E2641D48C627002016C5 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E2631D48C627002016C5 /* Key.swift */; };
+		D2A4E2651D48C627002016C5 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E2631D48C627002016C5 /* Key.swift */; };
+		D2A4E2671D48CA2E002016C5 /* Crypter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E2661D48CA2E002016C5 /* Crypter.swift */; };
+		D2A4E2681D48CA2E002016C5 /* Crypter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E2661D48CA2E002016C5 /* Crypter.swift */; };
+		D2A4E26A1D48CC14002016C5 /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E2691D48CC14002016C5 /* DataConvertible.swift */; };
+		D2A4E26B1D48CC14002016C5 /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E2691D48CC14002016C5 /* DataConvertible.swift */; };
+		D2A4E26D1D48D21D002016C5 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E26C1D48D21D002016C5 /* Tests.swift */; };
+		D2A4E26E1D48D21D002016C5 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E26C1D48D21D002016C5 /* Tests.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* Flasker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Flasker.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Flasker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Flasker.framework */; };
-		D5C629771C3A878E007F7B7C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629751C3A878E007F7B7C /* Quick.framework */; };
-		D5C629781C3A878E007F7B7C /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629761C3A878E007F7B7C /* Nimble.framework */; };
-		D5C6297B1C3A879F007F7B7C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629791C3A879F007F7B7C /* Quick.framework */; };
-		D5C6297C1C3A879F007F7B7C /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C6297A1C3A879F007F7B7C /* Nimble.framework */; };
-		D5C6299B1C3A8BDA007F7B7C /* MacSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629951C3A8BDA007F7B7C /* MacSpec.swift */; };
-		D5C6299C1C3A8BDA007F7B7C /* SharedSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629971C3A8BDA007F7B7C /* SharedSpec.swift */; };
-		D5C6299D1C3A8C6B007F7B7C /* iOSSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629931C3A8BDA007F7B7C /* iOSSpec.swift */; };
-		D5C6299E1C3A8C75007F7B7C /* SharedSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629971C3A8BDA007F7B7C /* SharedSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,10 @@
 
 /* Begin PBXFileReference section */
 		D2A4E2601D48C546002016C5 /* Flask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flask.swift; sourceTree = "<group>"; };
+		D2A4E2631D48C627002016C5 /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		D2A4E2661D48CA2E002016C5 /* Crypter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypter.swift; sourceTree = "<group>"; };
+		D2A4E2691D48CC14002016C5 /* DataConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConvertible.swift; sourceTree = "<group>"; };
+		D2A4E26C1D48D21D002016C5 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; };
 		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* Flasker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Flasker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,9 +58,6 @@
 		D5C6298C1C3A8BBD007F7B7C /* Info-Mac.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Mac.plist"; sourceTree = "<group>"; };
 		D5C629901C3A8BDA007F7B7C /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		D5C629911C3A8BDA007F7B7C /* Info-Mac.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Mac.plist"; sourceTree = "<group>"; };
-		D5C629931C3A8BDA007F7B7C /* iOSSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSSpec.swift; sourceTree = "<group>"; };
-		D5C629951C3A8BDA007F7B7C /* MacSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacSpec.swift; sourceTree = "<group>"; };
-		D5C629971C3A8BDA007F7B7C /* SharedSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C629771C3A878E007F7B7C /* Quick.framework in Frameworks */,
-				D5C629781C3A878E007F7B7C /* Nimble.framework in Frameworks */,
 				D5B2E8AA1C3A780C00C0327D /* Flasker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,8 +87,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C6297B1C3A879F007F7B7C /* Quick.framework in Frameworks */,
-				D5C6297C1C3A879F007F7B7C /* Nimble.framework in Frameworks */,
 				D5C6294A1C3A7FAA007F7B7C /* Flasker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +142,9 @@
 			isa = PBXGroup;
 			children = (
 				D2A4E2601D48C546002016C5 /* Flask.swift */,
+				D2A4E2631D48C627002016C5 /* Key.swift */,
+				D2A4E2661D48CA2E002016C5 /* Crypter.swift */,
+				D2A4E2691D48CC14002016C5 /* DataConvertible.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -154,35 +154,9 @@
 			children = (
 				D5C629901C3A8BDA007F7B7C /* Info-iOS.plist */,
 				D5C629911C3A8BDA007F7B7C /* Info-Mac.plist */,
-				D5C629921C3A8BDA007F7B7C /* iOS */,
-				D5C629941C3A8BDA007F7B7C /* Mac */,
-				D5C629961C3A8BDA007F7B7C /* Shared */,
+				D2A4E26C1D48D21D002016C5 /* Tests.swift */,
 			);
 			path = FlaskerTests;
-			sourceTree = "<group>";
-		};
-		D5C629921C3A8BDA007F7B7C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D5C629931C3A8BDA007F7B7C /* iOSSpec.swift */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		D5C629941C3A8BDA007F7B7C /* Mac */ = {
-			isa = PBXGroup;
-			children = (
-				D5C629951C3A8BDA007F7B7C /* MacSpec.swift */,
-			);
-			path = Mac;
-			sourceTree = "<group>";
-		};
-		D5C629961C3A8BDA007F7B7C /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				D5C629971C3A8BDA007F7B7C /* SharedSpec.swift */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +204,6 @@
 				D5B2E8A51C3A780C00C0327D /* Sources */,
 				D5B2E8A61C3A780C00C0327D /* Frameworks */,
 				D5B2E8A71C3A780C00C0327D /* Resources */,
-				D5C629731C3A86E3007F7B7C /* Copy frameworks with Carthage */,
 			);
 			buildRules = (
 			);
@@ -267,7 +240,6 @@
 				D5C629451C3A7FAA007F7B7C /* Sources */,
 				D5C629461C3A7FAA007F7B7C /* Frameworks */,
 				D5C629471C3A7FAA007F7B7C /* Resources */,
-				D5C629741C3A8717007F7B7C /* Copy frameworks with Carthage */,
 			);
 			buildRules = (
 			);
@@ -285,7 +257,7 @@
 		D5B2E8961C3A780C00C0327D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Hyper Interaktiv AS";
 				TargetAttributes = {
@@ -354,47 +326,15 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		D5C629731C3A86E3007F7B7C /* Copy frameworks with Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
-			);
-			name = "Copy frameworks with Carthage";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		D5C629741C3A8717007F7B7C /* Copy frameworks with Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/Mac/Quick.framework",
-				"$(SRCROOT)/Carthage/Build/Mac/Nimble.framework",
-			);
-			name = "Copy frameworks with Carthage";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		D5B2E89A1C3A780C00C0327D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D2A4E2611D48C546002016C5 /* Flask.swift in Sources */,
+				D2A4E2671D48CA2E002016C5 /* Crypter.swift in Sources */,
+				D2A4E2641D48C627002016C5 /* Key.swift in Sources */,
+				D2A4E26A1D48CC14002016C5 /* DataConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,8 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C6299E1C3A8C75007F7B7C /* SharedSpec.swift in Sources */,
-				D5C6299D1C3A8C6B007F7B7C /* iOSSpec.swift in Sources */,
+				D2A4E26D1D48D21D002016C5 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +351,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A4E2621D48C546002016C5 /* Flask.swift in Sources */,
+				D2A4E2681D48CA2E002016C5 /* Crypter.swift in Sources */,
+				D2A4E2651D48C627002016C5 /* Key.swift in Sources */,
+				D2A4E26B1D48CC14002016C5 /* DataConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,8 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C6299C1C3A8BDA007F7B7C /* SharedSpec.swift in Sources */,
-				D5C6299B1C3A8BDA007F7B7C /* MacSpec.swift in Sources */,
+				D2A4E26E1D48D21D002016C5 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +586,7 @@
 		D5C629551C3A7FAA007F7B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -657,12 +599,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.Flasker-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D5C629561C3A7FAA007F7B7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
