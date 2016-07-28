@@ -17,7 +17,7 @@ class Tests: XCTestCase {
 
   func testFlask() {
 
-    let flask = Flask(userDefaults: NSUserDefaults.standardUserDefaults(), secret: "secret")
+    let flask = Flask(accessor: NSUserDefaults.standardUserDefaults(), secret: "secret")
 
     flask.set("hello", key: Key.string)
     XCTAssertEqual(flask.get(Key.string), "hello")
@@ -44,7 +44,7 @@ class Tests: XCTestCase {
   }
 
   func testOperation() {
-    let flask = Flask(userDefaults: NSUserDefaults.standardUserDefaults(), secret: "secret")
+    let flask = Flask(accessor: NSUserDefaults.standardUserDefaults(), secret: "secret")
 
     flask.set("hello", key: Key.key1)
     flask.remove(Key.key1)

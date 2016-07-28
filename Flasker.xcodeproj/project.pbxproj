@@ -18,6 +18,10 @@
 		D2A4E26B1D48CC14002016C5 /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E2691D48CC14002016C5 /* DataConvertible.swift */; };
 		D2A4E26D1D48D21D002016C5 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E26C1D48D21D002016C5 /* Tests.swift */; };
 		D2A4E26E1D48D21D002016C5 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E26C1D48D21D002016C5 /* Tests.swift */; };
+		D2E068A01D49FA77002ECB7D /* DataAccessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E0689F1D49FA77002ECB7D /* DataAccessing.swift */; };
+		D2E068A11D49FA77002ECB7D /* DataAccessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E0689F1D49FA77002ECB7D /* DataAccessing.swift */; };
+		D2E068A31D49FAB7002ECB7D /* UserDefaults+DataAccessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E068A21D49FAB7002ECB7D /* UserDefaults+DataAccessing.swift */; };
+		D2E068A41D49FAB7002ECB7D /* UserDefaults+DataAccessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E068A21D49FAB7002ECB7D /* UserDefaults+DataAccessing.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* Flasker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Flasker.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Flasker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Flasker.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +50,8 @@
 		D2A4E2661D48CA2E002016C5 /* Crypter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypter.swift; sourceTree = "<group>"; };
 		D2A4E2691D48CC14002016C5 /* DataConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConvertible.swift; sourceTree = "<group>"; };
 		D2A4E26C1D48D21D002016C5 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		D2E0689F1D49FA77002ECB7D /* DataAccessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccessing.swift; sourceTree = "<group>"; };
+		D2E068A21D49FAB7002ECB7D /* UserDefaults+DataAccessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+DataAccessing.swift"; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; };
 		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* Flasker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Flasker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +155,8 @@
 				D2A4E2631D48C627002016C5 /* Key.swift */,
 				D2A4E2661D48CA2E002016C5 /* Crypter.swift */,
 				D2A4E2691D48CC14002016C5 /* DataConvertible.swift */,
+				D2E0689F1D49FA77002ECB7D /* DataAccessing.swift */,
+				D2E068A21D49FAB7002ECB7D /* UserDefaults+DataAccessing.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -337,6 +345,8 @@
 			files = (
 				D2A4E2611D48C546002016C5 /* Flask.swift in Sources */,
 				D2A4E2671D48CA2E002016C5 /* Crypter.swift in Sources */,
+				D2E068A31D49FAB7002ECB7D /* UserDefaults+DataAccessing.swift in Sources */,
+				D2E068A01D49FA77002ECB7D /* DataAccessing.swift in Sources */,
 				D2A4E2641D48C627002016C5 /* Key.swift in Sources */,
 				D2A4E26A1D48CC14002016C5 /* DataConvertible.swift in Sources */,
 			);
@@ -356,6 +366,8 @@
 			files = (
 				D2A4E2621D48C546002016C5 /* Flask.swift in Sources */,
 				D2A4E2681D48CA2E002016C5 /* Crypter.swift in Sources */,
+				D2E068A41D49FAB7002ECB7D /* UserDefaults+DataAccessing.swift in Sources */,
+				D2E068A11D49FA77002ECB7D /* DataAccessing.swift in Sources */,
 				D2A4E2651D48C627002016C5 /* Key.swift in Sources */,
 				D2A4E26B1D48CC14002016C5 /* DataConvertible.swift in Sources */,
 			);
