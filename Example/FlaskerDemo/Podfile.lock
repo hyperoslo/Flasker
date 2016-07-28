@@ -1,5 +1,7 @@
 PODS:
-  - Flasker (0.1.0)
+  - Arcane (0.2.0)
+  - Flasker (0.1.0):
+    - Arcane
 
 DEPENDENCIES:
   - Flasker (from `../../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  Flasker: e9d6dd0e9acf92e9ce41b08ffbd756f7acdb056e
+  Arcane: 9cf005ab1ef56af2b8f1644f7399241753cdac13
+  Flasker: 0ee653f7eaebae1de74ff80fa3ed7b0aa0ecdb8a
 
 PODFILE CHECKSUM: 1bd96a45757c2dca8e1770129080dea86cfd6cc8
 

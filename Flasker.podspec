@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Flasker"
-  s.summary          = "User defaults made secured"
+  s.summary          = "User defaults made secure"
   s.version          = "0.1.0"
   s.homepage         = "https://github.com/hyperoslo/Flasker"
   s.license          = 'MIT'
