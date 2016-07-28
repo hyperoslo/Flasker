@@ -26,6 +26,7 @@ public struct Flask {
     if let data = value.encode(),
       let encryptedData = Crypter.encrypt(data, secret: secret) {
       userDefaults.setObject(encryptedData, forKey: key.rawValue)
+      userDefaults.synchronize()
     }
   }
 }
