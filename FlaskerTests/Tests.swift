@@ -8,13 +8,15 @@ extension Key {
   static let double = Key(rawValue: "double")
   static let bool = Key(rawValue: "bool")
   static let url = Key(rawValue: "url")
+
+  static let key1 = Key(rawValue: "key1")
 }
 
 class Tests: XCTestCase {
 
   func testFlask() {
 
-    let flask = Flask(userDefaults: NSUserDefaults.standardUserDefaults(), secret: "")
+    let flask = Flask(userDefaults: NSUserDefaults.standardUserDefaults(), secret: "secret")
 
     flask.set("hello", key: Key.string)
     XCTAssertEqual(flask.get(Key.string), "hello")
@@ -34,6 +36,16 @@ class Tests: XCTestCase {
     let url = NSURL(string: "http://www.google.com")
     flask.set(url!, key: Key.url)
     XCTAssertEqual(flask.get(Key.url), url)
+  }
+
+  func testOperation() {
+    let flask = Flask(userDefaults: NSUserDefaults.standardUserDefaults(), secret: "secret")
+
+    flask.set("hello", key: Key.key1)
+    flask.remove(Key.key1)
+
+    let value: String? = flask.get(Key.key1)
+    XCTAssertNil(value)
   }
 
 }
