@@ -88,3 +88,14 @@ extension NSURL: DataConvertible {
     return nil
   }
 }
+
+extension NSData: DataConvertible {
+
+  public func encode() -> NSData? {
+    return self
+  }
+
+  public static func decode(data: NSData) -> NSData? {
+    return data
+  }
+}

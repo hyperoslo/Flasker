@@ -8,6 +8,7 @@ extension Key {
   static let double = Key(rawValue: "double")
   static let bool = Key(rawValue: "bool")
   static let url = Key(rawValue: "url")
+  static let data = Key(rawValue: "data")
 
   static let key1 = Key(rawValue: "key1")
 }
@@ -33,9 +34,13 @@ class Tests: XCTestCase {
     flask.set(true, key: Key.bool)
     XCTAssertEqual(flask.get(Key.bool), true)
 
-    let url = NSURL(string: "http://www.google.com")
-    flask.set(url!, key: Key.url)
+    let url = NSURL(string: "http://www.google.com")!
+    flask.set(url, key: Key.url)
     XCTAssertEqual(flask.get(Key.url), url)
+
+    let data = "data".dataUsingEncoding(NSUTF8StringEncoding)!
+    flask.set(data, key: Key.data)
+    XCTAssertEqual(flask.get(Key.data), data)
   }
 
   func testOperation() {
