@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Flasker"
-  s.summary          = "Secured user defaults"
+  s.summary          = "User defaults made secured"
   s.version          = "0.1.0"
   s.homepage         = "https://github.com/hyperoslo/Flasker"
   s.license          = 'MIT'
@@ -17,4 +17,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.source_files = 'Sources/**/*'
+
+  s.dependency 'Arcane'
 end
