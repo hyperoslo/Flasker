@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "Flasker"
   s.summary          = "User defaults made secure"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.homepage         = "https://github.com/hyperoslo/Flasker"
   s.license          = 'MIT'
   s.author           = { "Hyper Interaktiv AS" => "ios@hyper.no" }
