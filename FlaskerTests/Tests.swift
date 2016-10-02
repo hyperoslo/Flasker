@@ -17,7 +17,7 @@ class Tests: XCTestCase {
 
   func testFlask() {
 
-    let flask = Flask(accessor: NSUserDefaults.standardUserDefaults(), secret: "secret")
+    let flask = Flask(accessor: UserDefaults.standard, secret: "secret")
 
     flask.set("hello", key: Key.string)
     XCTAssertEqual(flask.get(Key.string), "hello")
@@ -34,17 +34,17 @@ class Tests: XCTestCase {
     flask.set(true, key: Key.bool)
     XCTAssertEqual(flask.get(Key.bool), true)
 
-    let url = NSURL(string: "http://www.google.com")!
+    let url = URL(string: "http://www.google.com")!
     flask.set(url, key: Key.url)
     XCTAssertEqual(flask.get(Key.url), url)
 
-    let data = "data".dataUsingEncoding(NSUTF8StringEncoding)!
+    let data = "data".data(using: String.Encoding.utf8)!
     flask.set(data, key: Key.data)
     XCTAssertEqual(flask.get(Key.data), data)
   }
 
   func testOperation() {
-    let flask = Flask(accessor: NSUserDefaults.standardUserDefaults(), secret: "secret")
+    let flask = Flask(accessor: UserDefaults.standard, secret: "secret")
 
     flask.set("hello", key: Key.key1)
     flask.remove(Key.key1)
