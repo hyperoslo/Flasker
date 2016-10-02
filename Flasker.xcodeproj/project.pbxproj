@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D200AB4D1D4968B3004C40FC /* Arcane.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D200AB4C1D4968B3004C40FC /* Arcane.framework */; };
 		D2A4E2611D48C546002016C5 /* Flask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E2601D48C546002016C5 /* Flask.swift */; };
 		D2A4E2621D48C546002016C5 /* Flask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E2601D48C546002016C5 /* Flask.swift */; };
 		D2A4E2641D48C627002016C5 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4E2631D48C627002016C5 /* Key.swift */; };
@@ -73,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D200AB4D1D4968B3004C40FC /* Arcane.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +273,11 @@
 				TargetAttributes = {
 					D5B2E89E1C3A780C00C0327D = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 					};
 					D5B2E8A81C3A780C00C0327D = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 					};
 					D5C6293F1C3A7FAA007F7B7C = {
 						CreatedOnToolsVersion = 7.2;
@@ -506,6 +506,7 @@
 				PRODUCT_NAME = Flasker;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -528,6 +529,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.Flasker-iOS";
 				PRODUCT_NAME = Flasker;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -544,6 +546,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.FlaskerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -559,6 +562,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.FlaskerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

@@ -2,7 +2,7 @@ import Foundation
 
 public protocol DataAccessing {
   
-  func get(key: Key) -> NSData?
-  func set(data: NSData, key: Key)
-  func remove(key: Key)
+  func get(_ key: Key) -> Data?
+  func set(_ data: Data, key: Key)
+  func remove(_ key: Key)
 }
