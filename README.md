@@ -1,5 +1,7 @@
 # Flasker
 
+⚠️ DEPRECATED, NO LONGER MAINTAINED
+
 [![CI Status](http://img.shields.io/travis/hyperoslo/Flasker.svg?style=flat)](https://travis-ci.org/hyperoslo/Flasker)
 [![Version](https://img.shields.io/cocoapods/v/Flasker.svg?style=flat)](http://cocoadocs.org/docsets/Flasker)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
